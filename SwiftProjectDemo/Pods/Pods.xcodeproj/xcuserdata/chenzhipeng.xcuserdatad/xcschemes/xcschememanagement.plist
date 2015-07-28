@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>AlamofireObjectMapper.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>ObjectMapper.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Pods-SwiftProjectDemo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2B84BE8F29A40045D990B0CC47531089</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4269BFCFEE36EBE240B12E7B25B5DE72</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5049580B7DC2D5E5257A06A190D6777A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5FF2BF13C66C3C252F32E54E1E7E37D2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
