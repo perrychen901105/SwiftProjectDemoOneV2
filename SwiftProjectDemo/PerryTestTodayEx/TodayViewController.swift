@@ -18,7 +18,7 @@ class TodayViewController: UIViewController, NCWidgetProviding {
     
     @IBAction func btnPressedBtnOne(sender: UIButton) {
         println("aaaa")
-        self.extensionContext?.openURL(NSURL(string: "com.perry.today")!, completionHandler: { (complete: Bool) -> Void in
+        self.extensionContext!.openURL(NSURL(string: "com.perry.today://aa")!, completionHandler: { (complete: Bool) -> Void in
             if complete == true {
                 println("aaa")
             }

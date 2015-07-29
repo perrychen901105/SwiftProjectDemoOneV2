@@ -25,14 +25,23 @@
                                     <action selector="actionGetAllList:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dPj-s3-J4M"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gP7-ZZ-GuO">
+                                <rect key="frame" x="279" y="383" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="centerX" secondItem="gP7-ZZ-GuO" secondAttribute="centerX" id="HX3-Bc-2Z2"/>
                             <constraint firstAttribute="centerY" secondItem="56r-PB-8z6" secondAttribute="centerY" id="O5x-vq-Mk8"/>
+                            <constraint firstItem="gP7-ZZ-GuO" firstAttribute="top" secondItem="56r-PB-8z6" secondAttribute="bottom" constant="68" id="VPq-K9-hdI"/>
                             <constraint firstAttribute="centerX" secondItem="56r-PB-8z6" secondAttribute="centerX" id="mbS-AO-Y18"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="lblContent" destination="gP7-ZZ-GuO" id="mp7-qa-QjD"/>
                         <segue destination="i1z-Vo-ymX" kind="show" identifier="goList" id="597-0X-73m"/>
                     </connections>
                 </viewController>

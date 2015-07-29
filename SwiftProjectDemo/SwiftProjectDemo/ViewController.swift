@@ -12,6 +12,7 @@ import EmployeeDataProviderKit
 class ViewController: UIViewController {
     var provider: EmployeeDataProvider!
     
+    @IBOutlet weak var lblContent: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         provider = EmployeeDataProvider()
@@ -21,6 +22,16 @@ class ViewController: UIViewController {
         getAll()
     }
 
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        var delegateA : AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+//        if let texts = delegateA.str {
+            self.lblContent.text = NSUserDefaults.standardUserDefaults().objectForKey("url") as? String
+//        }
+        
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
