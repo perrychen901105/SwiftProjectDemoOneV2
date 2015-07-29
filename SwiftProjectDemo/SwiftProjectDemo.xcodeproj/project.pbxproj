@@ -19,6 +19,16 @@
 		2AED88301B68711000DAA6DB /* EmployeeDataProviderKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AED88191B68711000DAA6DB /* EmployeeDataProviderKit.framework */; };
 		2AED88311B68711000DAA6DB /* EmployeeDataProviderKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2AED88191B68711000DAA6DB /* EmployeeDataProviderKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2AED883A1B68713000DAA6DB /* BaseApiResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AED88391B68713000DAA6DB /* BaseApiResponseModel.swift */; };
+		2C04FDF61B69189A00B5DAB0 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C04FDF51B69189A00B5DAB0 /* Alamofire.framework */; };
+		2C04FDF81B69189E00B5DAB0 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C04FDF71B69189E00B5DAB0 /* ObjectMapper.framework */; };
+		2C04FDFA1B6918A200B5DAB0 /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C04FDF91B6918A200B5DAB0 /* AlamofireObjectMapper.framework */; };
+		2C04FE011B69194900B5DAB0 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C04FE001B69194900B5DAB0 /* NotificationCenter.framework */; };
+		2C04FE061B69194900B5DAB0 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C04FE051B69194900B5DAB0 /* TodayViewController.swift */; };
+		2C04FE081B69194900B5DAB0 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C04FE071B69194900B5DAB0 /* MainInterface.storyboard */; };
+		2C04FE0B1B69194900B5DAB0 /* PerryTestTodayEx.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2C04FDFF1B69194900B5DAB0 /* PerryTestTodayEx.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2C04FE121B6919CA00B5DAB0 /* EmployeeDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C04FE101B6919CA00B5DAB0 /* EmployeeDataProvider.swift */; };
+		2C04FE131B6919CA00B5DAB0 /* EmployeeDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C04FE111B6919CA00B5DAB0 /* EmployeeDataService.swift */; };
+		2C04FE151B6919F300B5DAB0 /* EmployeesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C04FE141B6919F300B5DAB0 /* EmployeesListViewController.swift */; };
 		53FD29B697679FACEB5E2353 /* Pods_SwiftProjectDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F66C3D34DCCA19A59377DA5 /* Pods_SwiftProjectDemo.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -51,6 +61,13 @@
 			remoteGlobalIDString = 2AED88181B68711000DAA6DB;
 			remoteInfo = EmployeeDataProviderKit;
 		};
+		2C04FE091B69194900B5DAB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A09AF2F1B678908009531AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C04FDFE1B69194900B5DAB0;
+			remoteInfo = PerryTestTodayEx;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -63,6 +80,17 @@
 				2AED88311B68711000DAA6DB /* EmployeeDataProviderKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C04FE0F1B69194900B5DAB0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2C04FE0B1B69194900B5DAB0 /* PerryTestTodayEx.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -87,6 +115,17 @@
 		2AED882B1B68711000DAA6DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AED882C1B68711000DAA6DB /* EmployeeDataProviderKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDataProviderKitTests.swift; sourceTree = "<group>"; };
 		2AED88391B68713000DAA6DB /* BaseApiResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseApiResponseModel.swift; sourceTree = "<group>"; };
+		2C04FDF51B69189A00B5DAB0 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
+		2C04FDF71B69189E00B5DAB0 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = "Pods/../build/Debug-iphoneos/ObjectMapper.framework"; sourceTree = "<group>"; };
+		2C04FDF91B6918A200B5DAB0 /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireObjectMapper.framework; path = "Pods/../build/Debug-iphoneos/AlamofireObjectMapper.framework"; sourceTree = "<group>"; };
+		2C04FDFF1B69194900B5DAB0 /* PerryTestTodayEx.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PerryTestTodayEx.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C04FE001B69194900B5DAB0 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		2C04FE041B69194900B5DAB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C04FE051B69194900B5DAB0 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		2C04FE071B69194900B5DAB0 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		2C04FE101B6919CA00B5DAB0 /* EmployeeDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeDataProvider.swift; sourceTree = "<group>"; };
+		2C04FE111B6919CA00B5DAB0 /* EmployeeDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeDataService.swift; sourceTree = "<group>"; };
+		2C04FE141B6919F300B5DAB0 /* EmployeesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeesListViewController.swift; sourceTree = "<group>"; };
 		ADBA8CFFB759D14C626DECC2 /* Pods-SwiftProjectDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProjectDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftProjectDemo/Pods-SwiftProjectDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,6 +150,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C04FDFA1B6918A200B5DAB0 /* AlamofireObjectMapper.framework in Frameworks */,
+				2C04FDF81B69189E00B5DAB0 /* ObjectMapper.framework in Frameworks */,
+				2C04FDF61B69189A00B5DAB0 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +161,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AED88241B68711000DAA6DB /* EmployeeDataProviderKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C04FDFC1B69194900B5DAB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C04FE011B69194900B5DAB0 /* NotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +182,7 @@
 				2A09AF4F1B678908009531AE /* SwiftProjectDemoTests */,
 				2AED881A1B68711000DAA6DB /* EmployeeDataProviderKit */,
 				2AED88291B68711000DAA6DB /* EmployeeDataProviderKitTests */,
+				2C04FE021B69194900B5DAB0 /* PerryTestTodayEx */,
 				2A09AF381B678908009531AE /* Products */,
 				613DDF78A66045530CAF40AF /* Pods */,
 				DAE5E983BF038B026BD82E34 /* Frameworks */,
@@ -145,6 +196,7 @@
 				2A09AF4C1B678908009531AE /* SwiftProjectDemoTests.xctest */,
 				2AED88191B68711000DAA6DB /* EmployeeDataProviderKit.framework */,
 				2AED88231B68711000DAA6DB /* EmployeeDataProviderKitTests.xctest */,
+				2C04FDFF1B69194900B5DAB0 /* PerryTestTodayEx.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,6 +204,7 @@
 		2A09AF391B678908009531AE /* SwiftProjectDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2C04FE141B6919F300B5DAB0 /* EmployeesListViewController.swift */,
 				2A09AF3C1B678908009531AE /* AppDelegate.swift */,
 				2A09AF3E1B678908009531AE /* ViewController.swift */,
 				2A09AF401B678908009531AE /* Main.storyboard */,
@@ -190,6 +243,8 @@
 		2AED881A1B68711000DAA6DB /* EmployeeDataProviderKit */ = {
 			isa = PBXGroup;
 			children = (
+				2C04FE101B6919CA00B5DAB0 /* EmployeeDataProvider.swift */,
+				2C04FE111B6919CA00B5DAB0 /* EmployeeDataService.swift */,
 				2AED881D1B68711000DAA6DB /* EmployeeDataProviderKit.h */,
 				2AED881B1B68711000DAA6DB /* Supporting Files */,
 				2AED88391B68713000DAA6DB /* BaseApiResponseModel.swift */,
@@ -222,6 +277,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2C04FE021B69194900B5DAB0 /* PerryTestTodayEx */ = {
+			isa = PBXGroup;
+			children = (
+				2C04FE051B69194900B5DAB0 /* TodayViewController.swift */,
+				2C04FE071B69194900B5DAB0 /* MainInterface.storyboard */,
+				2C04FE031B69194900B5DAB0 /* Supporting Files */,
+			);
+			path = PerryTestTodayEx;
+			sourceTree = "<group>";
+		};
+		2C04FE031B69194900B5DAB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C04FE041B69194900B5DAB0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		613DDF78A66045530CAF40AF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -234,7 +307,11 @@
 		DAE5E983BF038B026BD82E34 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2C04FDF91B6918A200B5DAB0 /* AlamofireObjectMapper.framework */,
+				2C04FDF71B69189E00B5DAB0 /* ObjectMapper.framework */,
+				2C04FDF51B69189A00B5DAB0 /* Alamofire.framework */,
 				1F66C3D34DCCA19A59377DA5 /* Pods_SwiftProjectDemo.framework */,
+				2C04FE001B69194900B5DAB0 /* NotificationCenter.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -264,11 +341,13 @@
 				6711A68865ED391F870C54D8 /* Embed Pods Frameworks */,
 				8715A516F7057B661382E5A8 /* Copy Pods Resources */,
 				2AED88371B68711000DAA6DB /* Embed Frameworks */,
+				2C04FE0F1B69194900B5DAB0 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				2AED882F1B68711000DAA6DB /* PBXTargetDependency */,
+				2C04FE0A1B69194900B5DAB0 /* PBXTargetDependency */,
 			);
 			name = SwiftProjectDemo;
 			productName = SwiftProjectDemo;
@@ -330,6 +409,23 @@
 			productReference = 2AED88231B68711000DAA6DB /* EmployeeDataProviderKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		2C04FDFE1B69194900B5DAB0 /* PerryTestTodayEx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C04FE0C1B69194900B5DAB0 /* Build configuration list for PBXNativeTarget "PerryTestTodayEx" */;
+			buildPhases = (
+				2C04FDFB1B69194900B5DAB0 /* Sources */,
+				2C04FDFC1B69194900B5DAB0 /* Frameworks */,
+				2C04FDFD1B69194900B5DAB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerryTestTodayEx;
+			productName = PerryTestTodayEx;
+			productReference = 2C04FDFF1B69194900B5DAB0 /* PerryTestTodayEx.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -353,6 +449,9 @@
 						CreatedOnToolsVersion = 6.4;
 						TestTargetID = 2A09AF361B678908009531AE;
 					};
+					2C04FDFE1B69194900B5DAB0 = {
+						CreatedOnToolsVersion = 6.4;
+					};
 				};
 			};
 			buildConfigurationList = 2A09AF321B678908009531AE /* Build configuration list for PBXProject "SwiftProjectDemo" */;
@@ -372,6 +471,7 @@
 				2A09AF4B1B678908009531AE /* SwiftProjectDemoTests */,
 				2AED88181B68711000DAA6DB /* EmployeeDataProviderKit */,
 				2AED88221B68711000DAA6DB /* EmployeeDataProviderKitTests */,
+				2C04FDFE1B69194900B5DAB0 /* PerryTestTodayEx */,
 			);
 		};
 /* End PBXProject section */
@@ -405,6 +505,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C04FDFD1B69194900B5DAB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C04FE081B69194900B5DAB0 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +571,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C04FE151B6919F300B5DAB0 /* EmployeesListViewController.swift in Sources */,
 				2A09AF3F1B678908009531AE /* ViewController.swift in Sources */,
 				2A09AF3D1B678908009531AE /* AppDelegate.swift in Sources */,
 			);
@@ -480,6 +589,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C04FE131B6919CA00B5DAB0 /* EmployeeDataService.swift in Sources */,
+				2C04FE121B6919CA00B5DAB0 /* EmployeeDataProvider.swift in Sources */,
 				2AED883A1B68713000DAA6DB /* BaseApiResponseModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -489,6 +600,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AED882D1B68711000DAA6DB /* EmployeeDataProviderKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C04FDFB1B69194900B5DAB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C04FE061B69194900B5DAB0 /* TodayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +633,11 @@
 			isa = PBXTargetDependency;
 			target = 2AED88181B68711000DAA6DB /* EmployeeDataProviderKit */;
 			targetProxy = 2AED882E1B68711000DAA6DB /* PBXContainerItemProxy */;
+		};
+		2C04FE0A1B69194900B5DAB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C04FDFE1B69194900B5DAB0 /* PerryTestTodayEx */;
+			targetProxy = 2C04FE091B69194900B5DAB0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -573,7 +697,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -612,7 +736,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -626,6 +750,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftProjectDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -637,6 +762,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftProjectDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -685,12 +811,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = EmployeeDataProviderKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -709,8 +840,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = EmployeeDataProviderKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -751,6 +887,32 @@
 			};
 			name = Release;
 		};
+		2C04FE0D1B69194900B5DAB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PerryTestTodayEx/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2C04FE0E1B69194900B5DAB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PerryTestTodayEx/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -788,12 +950,22 @@
 				2AED88331B68711000DAA6DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2AED88381B68711000DAA6DB /* Build configuration list for PBXNativeTarget "EmployeeDataProviderKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2AED88341B68711000DAA6DB /* Debug */,
 				2AED88351B68711000DAA6DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C04FE0C1B69194900B5DAB0 /* Build configuration list for PBXNativeTarget "PerryTestTodayEx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C04FE0D1B69194900B5DAB0 /* Debug */,
+				2C04FE0E1B69194900B5DAB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
