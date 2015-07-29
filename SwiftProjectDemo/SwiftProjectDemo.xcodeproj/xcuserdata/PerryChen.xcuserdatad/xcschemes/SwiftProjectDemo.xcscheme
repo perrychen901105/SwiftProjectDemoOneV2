@@ -34,6 +34,20 @@
                ReferencedContainer = "container:SwiftProjectDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2AED88221B68711000DAA6DB"
+               BuildableName = "EmployeeDataProviderKitTests.xctest"
+               BlueprintName = "EmployeeDataProviderKitTests"
+               ReferencedContainer = "container:SwiftProjectDemo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -49,6 +63,16 @@
                BlueprintIdentifier = "2A09AF4B1B678908009531AE"
                BuildableName = "SwiftProjectDemoTests.xctest"
                BlueprintName = "SwiftProjectDemoTests"
+               ReferencedContainer = "container:SwiftProjectDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2AED88221B68711000DAA6DB"
+               BuildableName = "EmployeeDataProviderKitTests.xctest"
+               BlueprintName = "EmployeeDataProviderKitTests"
                ReferencedContainer = "container:SwiftProjectDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
